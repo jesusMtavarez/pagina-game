@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Cargar  fuentes-->
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./asset/fonts/montserrat/montserrat.css">
+
+    <!--cagar estilos-->
+    <link rel="stylesheet" href="./asset/css/reset.css">
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    <link rel="stylesheet" href="./asset/css/resposive.css">
+
+    <!--cagar javascript-->
+    <script src="./asset/js/main.js" ></script>
+    <script src="./asset/js/maquee.js" ></script>
+    <script src="./asset/js/menu.js" ></script>
+
+    <title>Noticias de VideoJuego</title>
+</head>
+<body>
+    <!--Barra superior decorativa-->
+    <div class="decoration-bar">
+
+    </div>
+
+
+    <!--Estrutura principal-->
+    <div class="layout">
+
+        <!--cabesera-->
+        <header class="layout__header">
+
+            <div class="header__title">
+                <a href="https://store.steampowered.com/" class="header__link">
+                 
+                    <img src="./asset/img/logo nuevo 3.jpg" class="header__img" alt="logo">GAMEPRO
+                </a>
+            </div>
+        </header>
+        <!--Navagacion-->
+        <section class="layout__nav">
+            <nav class="nav__navbar">
+
+                
+            <!--BOTON MENU RESPOSIVE-->
+            <div class="navbar__mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!--EL MENU ESCRITORIO-->
+            <ul class="navbar__mobile-list">
+                <!--ELEMENTO CON SUBMENU-->
+                <li class="mobile-list__item">
+                    <div class="mobile-list__container">
+                        <a href="https://store.steampowered.com/news/" class="mobile-list__link"> Noticias</a>
+
+                        <div class="mobile-list__icon" id="icon1" >
+                            <i class="fa-solid fa-chevron-circle-down"></i>
+                            
+                        </div>
+                    </div>
+
+                    <ul class="mobile-list__msubmenu" id="submenu1">
+                        <li class="msubmenu__item">
+                            <a href="https://store.steampowered.com/" class="msubmenu__link">Video Juegos</a>
+                        </li>
+                        <li class="msubmenu__item">
+                            <a href="https://us.marca.com/tiramillas/cine/2024/03/08/65eb1474268e3e99608b4574.html" class="msubmenu__link">Cine</a>
+                        </li>
+                        <li class="msubmenu__item">
+                            <a href="https://www.eitb.eus/es/noticias/tecnologia/" class="msubmenu__link">Tecnologia</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <!--ELEMENTO SIMPLE-->
+                <li class="mobile-list__item">
+                    <a href="https://as.com/meristation/noticias/cuando-empieza-la-nueva-temporada-de-fortnite-fecha-horarios-y-todo-lo-que-sabemos-n-2/" class="mobile-list__link">Analisis</a>
+                </li>
+
+                <li class="mobile-list__item">
+                    <a href="https://store.steampowered.com/" class="mobile-list__link">Juegos</a>
+                </li>
+
+                <li class="mobile-list__item">
+                    <div class="mobile-list__container">
+                        <a href="https://store.steampowered.com/search/?filter=topsellers" class="mobile-list__link"> Categorias</a>
+
+                        <div class="mobile-list__icon" id="icon2" >
+                            <i class="fa-solid fa-chevron-circle-down"></i>
+                            
+                        </div>
+                    </div>
+
+                    <ul class="mobile-list__msubmenu" id="submenu2">
+                        <li class="msubmenu__item">
+                            <a href="https://store.steampowered.com/category/action/" class="msubmenu__link">Accion</a>
+                        </li>
+                        <li class="msubmenu__item">
+                            <a href="https://store.steampowered.com/category/fighting_martial_arts/" class="msubmenu__link">Lucha</a>
+                        </li>
+                        <li class="msubmenu__item">
+                            <a href="https://store.steampowered.com/category/sim_physics_sandbox/?tab=8&flavor=popularcomingsoon" class="msubmenu__link">SandBox</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="mobile-list__item">
+                    <a href="https://store.steampowered.com/charts/mostplayed/" class="mobile-list__link">RANKING</a>
+                </li>
+
+                
+
+            </ul>
+
+
+            <!--NAVEGACION DE ESCRITORIO-->
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="https://vandal.elespanol.com/noticias/videojuegos" class="navbar__link">NOTICIAS</a>
+
+                        <div class="navbar__submenu">
+                            <!--Una lista desplegable-->
+                            <ul class="navbar__sublist">
+                                <li class="sublist__item">
+                                    <a href="https://vandal.elespanol.com/juegos/0/videojuegos" class="sublist__link">VideoJuegos</a>
+                                </li>
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/explore/new/" class="sublist__link">Novedades</a>
+                                </li>
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/" class="sublist__link">Otros</a>
+
+                                    <ul class="sublist__dropdown">
+                                        <li class="dropdown__item">
+                                            <a href="https://www.vogue.mx/articulo/mejores-peliculas-2024" class="dropdown__link">Cine</a>
+                                        </li>
+                                        <li class="dropdown__item">
+                                            <a href="https://vandal.elespanol.com/ware/" class="dropdown__link">Tecnologia</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--carousel imagenes-->
+
+                            <div class="submenu__carousel">
+                                <ul class="carousel__menu carousel__menu--small">
+
+                                    <!--El elemento del carousel-->
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-1.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--puntuacion-->
+                                        <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">9</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1517290/Battlefield_2042/" class="carousel__link">
+                                                    Battlefield 2042 es el mejor de la sega?
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </li>
+
+                                      <!--El elemento del carousel-->
+                                      <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-2.webp" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">7.2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="carousel__link">
+                                                    Elden Ring es el mejor juego del año?
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </li>
+
+                                      <!--El elemento del carousel-->
+                                      <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-3.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">8.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Parte_I/" class="carousel__link">
+                                                    The Last of us 1 remake es mejor que el original?
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </li>
+
+                                      <!--El elemento del carousel-->
+                                      <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-4.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">7</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human_Reloaded_Edition/" class="carousel__link">
+                                                    Review de Dying Light 2?
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://www.xataka.com/categoria/analisis" class="navbar__link">ANALISIS</a>
+
+                        <div class="navbar__submenu">
+                            <div class="submenu__carousel">
+                                <ul class="carousel__menu">
+
+                                    <!--elementos del carousel-->
+                                    <li class="carousel__item">
+
+                                              <!--Imagen-->
+                                              <div class="carousel__container-img">
+                                                  <img src="./asset/img/game-5 (1).jpg" class="carousel__img" alt="imagen submenu">
+                                              </div>
+
+                                              <!--el titulo-->
+                                              <div class="carousel__detail">
+                                                  <h2 class="carousel__title">
+                                                      <a href="https://store.steampowered.com/app/2138710/Sifu/" class="carousel__link">
+                                                          Sifu es el juego de pelea mas dificil?
+                                                      </a>
+                                                  </h2>
+                                              </div>
+
+                                              
+                                              <!--puntuacion-->
+                                              <div class="carousel__container-rating">
+                                                <div class="container-rating__circle">
+                                                    <div class="container-rating__border">
+                                                        <span class="container-rating__mark">7.5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-6.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="carousel__link">
+                                                    Trailer FC24
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                        
+
+                                        
+                                        <!--puntuacion-->
+                                        <div class="carousel__container-rating">
+                                          <div class="container-rating__circle">
+                                              <div class="container-rating__border">
+                                                  <span class="container-rating__mark">7</span>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-7.png" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://www.smashbros.com/it_IT/" class="carousel__link">
+                                                    Multivesus es mejor que Super Smarh Bros?
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                        
+                                        <!--puntuacion-->
+                                        <div class="carousel__container-rating">
+                                          <div class="container-rating__circle">
+                                              <div class="container-rating__border">
+                                                  <span class="container-rating__mark">8</span>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-8.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://www.gran-turismo.com/it/products/gt7/" class="carousel__link">
+                                                    Review de Gran Turismo 7?
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                          <!--puntuacion-->
+                                          <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">6.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-9.webp" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://vandal.elespanol.com/noticia/w5429/amd-lanza-los-drivers-adrenalin-21111-para-call-of-duty-vanguard-y-forza-horizon-5" class="carousel__link">
+                                                    Detalles alucinantes de Forza Horizon 5 
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                          <!--puntuacion-->
+                                          <div class="carousel__container-rating">
+                                            <div class="container-rating__circle">
+                                                <div class="container-rating__border">
+                                                    <span class="container-rating__mark">5.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                              </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="https://store.steampowered.com/" class="navbar__link">JUEGOS</a>
+
+                        <div class="navbar__submenu">
+                            <div class="submenu__carousel">
+                                <ul class="carousel__menu">
+
+                                    <!--elementos del carousel-->
+                                    <li class="carousel__item">
+
+                                              <!--Imagen-->
+                                              <div class="carousel__container-img">
+                                                  <img src="./asset/img/game-10.jpg" class="carousel__img" alt="imagen submenu">
+                                              </div>
+
+                                              <!--el titulo-->
+                                              <div class="carousel__detail">
+                                                  <h2 class="carousel__title">
+                                                      <a href="https://store.steampowered.com/app/1895880/Ratchet__Clank_Rift_Apart/" class="carousel__link">
+                                                          Review Ratchet and Clank
+                                                      </a>
+                                                  </h2>
+                                              </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-19.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://playvalorant.com/it-it/" class="carousel__link">
+                                                    Valorant es mejor que CSGO
+                                                </a>
+                                            </h2>
+                                        </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-11.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/2369390/Far_Cry_6/?curator_clanid=34004029" class="carousel__link">
+                                                    FarCry 6 es el mejor de la Saga?
+                                                </a>
+                                            </h2>
+                                        </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-12.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/" class="carousel__link">
+                                                    Gameplay de Resident Evil Village
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-13.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1426210/It_Takes_Two/" class="carousel__link">
+                                                    Its Take Two fue el mejor juego del año
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                              </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__link">CATEGORIAS</a>
+
+                        <div class="navbar__submenu navbar__submenu--small">
+                            <ul class="navbar__sublist">
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/category/action/" class="sublist__link">Accion</a>
+                                </li>
+
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/category/hack_and_slash/" class="sublist__link">Sandbox</a>
+
+                                    <ul class="sublist__dropdown">
+
+                                        <li class="dropdown__item">
+                                            <a href="https://store.steampowered.com/category/adventure/" class="dropdown__link">
+                                                Aventuras
+                                            </a>
+                                        </li>
+
+                                        <li class="dropdown__item">
+                                            <a href="https://store.steampowered.com/category/racing_sim/" class="dropdown__link">
+                                                Conduccion
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/category/fighting_martial_arts/" class="sublist__link">Lucha</a>
+                                </li>
+
+                                <li class="sublist__item">
+                                    <a href="https://store.steampowered.com/category/racing_sim/" class="sublist__link">Carreras</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://store.steampowered.com/charts/mostplayed/" class="navbar__link">RANKING</a>
+
+                        <div class="navbar__submenu">
+                            <div class="submenu__carousel">
+                                <ul class="carousel__menu">
+
+                                    <!--elementos del carousel-->
+                                    <li class="carousel__item">
+
+                                              <!--Imagen-->
+                                              <div class="carousel__container-img">
+                                                  <img src="./asset/img/game-14.jpeg" class="carousel__img" alt="imagen submenu">
+                                              </div>
+
+                                              <!--el titulo-->
+                                              <div class="carousel__detail">
+                                                  <h2 class="carousel__title">
+                                                      <a href="https://store.steampowered.com/app/597820/BIOMUTANT/" class="carousel__link">
+                                                          Trailer Biomutant
+                                                      </a>
+                                                  </h2>
+                                              </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-15.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/424840/Little_Nightmares/" class="carousel__link">
+                                                    Analisis Little Night
+                                                </a>
+                                            </h2>
+                                        </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-16.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/2315690/WWE_2K24/" class="carousel__link">
+                                                    Gameplay WWE 2k24 
+                                                </a>
+                                            </h2>
+                                        </div>
+
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-17.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" class="carousel__link">
+                                                    Red Dead Redemption 2 El mejor juego de la historia
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="carousel__item">
+
+                                        <!--Imagen-->
+                                        <div class="carousel__container-img">
+                                            <img src="./asset/img/game-18.jpg" class="carousel__img" alt="imagen submenu">
+                                        </div>
+
+                                        <!--el titulo-->
+                                        <div class="carousel__detail">
+                                            <h2 class="carousel__title">
+                                                <a href="https://store.steampowered.com/app/2290180/Riders_Republic/" class="carousel__link">
+                                                    Trailer Riders Republic
+                                                </a>
+                                            </h2>
+                                        </div>
+
+                              </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <!--BUSCADOR-->
+                <form action="" class="navbar__search">
+                    <input type="text" class="search__input" name="search" placeholder="Buscar" >
+                    <div class="navbar__btn-search">
+                        <a href="#" class="navbar__button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </form>
+            </nav>
+        </section>
+
+        <!--Marquesina-->
+        <section class="layout__marquee">
+
+            <h3 class="marquee__header">No Te Lo Pierdas</h3>
+
+            <div class="marquee__container">
+                <ul class="marquee__list">
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://www.playstation.com/it-it/ps5/" class="marquee__link">La nueva PS5</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Parte_I/" class="marquee__link">The Last of Us 1 Remake</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="marquee__link">Analicis Elden Ring</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="marquee__link">Trailer FC24</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/1537830/Disney_Speedstorm/" class="marquee__link">Analicis Disney SpeedStorm</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://www.rockstargames.com/VI" class="marquee__link">Analicis GTA 6 </a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/" class="marquee__link">Gameplay Gotham Nights</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://www.ea.com/it-it/games/ufc/ufc-4" class="marquee__link">Analicis UFC 4 </a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/" class="marquee__link">Gameplay Forza Horizon 5</a>
+                        </h4>
+                    </li>
+
+                    <li class="marquee__item">
+                        <h4 class="marquee__title">
+                            <a href="https://multiplayer.it/notizie/it-takes-two-goty-the-game-awards-2021.html" class="marquee__link">Goty Its Take Two</a>
+                        </h4>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section>
+
+        <!--Slideer-->
+        <section class="layout__slider">
+
+            <article class="slider__container slider__container--slider1">
+                <a href="" class="slider__link">
+                    <img src="./asset/img/slider-1.jpg" class="slider__img" alt="">
+                </a>
+                <div class="slider__info">
+                    <a href="" class="slider__category">
+                        JUEGOS
+                    </a>
+
+                    <div class="slider__line"></div>
+                    <h2 class="slider__title">
+                        <a href="https://store.steampowered.com/explore/new/" class="slider__link-title">Mejores Juegos 2024</a>
+                    </h2>
+                </div>
+
+                <div class="slider__rating">
+                    <div class="rating__circle">
+                        <div class="rating__border">
+                            <span class="rating__mark">6</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slider__container slider__container--slider2">
+                <a href="" class="slider__link">
+                    <img src="./asset/img/slider-2.jpg" class="slider__img" alt="">
+                </a>
+                <div class="slider__info">
+                    <a href="" class="slider__category">
+                        JUEGOS
+                    </a>
+
+                    <div class="slider__line"></div>
+
+                    <h2 class="slider__title">
+                        <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Parte_I/" class="slider__link-title">Review The Last of Us Remake</a>
+                    </h2>
+                </div>
+
+                <div class="slider__rating">
+                    <div class="rating__circle">
+                        <div class="rating__border">
+                            <span class="rating__mark">6.5</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="slider__container slider__container--slider3">
+                <a href="" class="slider__link">
+                    <img src="./asset/img/slider-3.jpeg" class="slider__img" alt="">
+                </a>
+                <div class="slider__info">
+                    <a href="" class="slider__category">
+                        JUEGOS
+                    </a>
+
+                    <div class="slider__line"></div>
+
+                    <h2 class="slider__title">
+                        <a href="https://www.wired.it/article/microsoft-compra-activision-blizzard-ufficiale/" class="slider__link-title">Microsoft compra Activision</a>
+                    </h2>
+                </div>
+
+                <div class="slider__rating">
+                    <div class="rating__circle">
+                        <div class="rating__border">
+                            <span class="rating__mark">7</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="slider__container slider__container--slider4">
+                <a href="" class="slider__link">
+                    <img src="./asset/img/slider-4.jpg" class="slider__img" alt="">
+                </a>
+                <div class="slider__info">
+                    <a href="https://store.steampowered.com/" class="slider__category">
+                        JUEGOS
+                    </a>
+
+                    <div class="slider__line"></div>
+
+                    <h2 class="slider__title">
+                        <a href="https://store.steampowered.com/app/1517290/Battlefield_2042/" class="slider__link-title">Review Battlefield 2042</a>
+                    </h2>
+                </div>
+
+                <div class="slider__rating">
+                    <div class="rating__circle">
+                        <div class="rating__border">
+                            <span class="rating__mark">5.5</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="slider__container slider__container--slider5">
+                <a href="" class="slider__link">
+                    <img src="./asset/img/slider-5.png" class="slider__img" alt="">
+                </a>
+                <div class="slider__info">
+                    <a href="https://store.steampowered.com/" class="slider__category">
+                        JUEGOS
+                    </a>
+
+                    <div class="slider__line"></div>
+
+                    <h2 class="slider__title">
+                        <a href="https://playvalorant.com/it-it/" class="slider__link-title">Mejores Skins de Valotant</a>
+                    </h2>
+                </div>
+
+                <div class="slider__rating">
+                    <div class="rating__circle">
+                        <div class="rating__border">
+                            <span class="rating__mark">6</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+
+        <!--MEJORES MOMENTOS-->
+
+        <section class="layout__highlights">
+
+            <header class="highlights__subheader">
+                <h3 class="subheader__title">Mejores momentos de los video Juegos</h3>
+            </header>
+
+            <div class="highlights__posts">
+
+                <article class="highlights__post">
+
+                    <div class="highlights__image">
+                        <a href="https://www.rockstargames.com/it/reddeadredemption2" class="highlights__image-link">
+                            <img src="./asset/img/highlight-2.jpg" class="highlights__img" alt="">
+                        </a>
+
+                        <div class="highlights__category">
+                            <a href="https://store.steampowered.com/tags/it/Mondo%20aperto/" class="highlights__name-category">Juegos</a>
+                        </div>
+                    </div>
+
+                    <div class="highlights__detail">
+                        <h3 class="highlights__title">
+                            <a href="https://www.rockstargames.com/it/reddeadredemption2" class="highlights__link">Mejor juego de todo los tiempos </a>
+                        </h3>
+
+                        <div class="highlights__meta">
+                            <a href="https://www.rockstargames.com/it/reddeadredemption2" class="highlights__autor">Jesus M. </a>
+                            <span class="highlights__date">Septiembre 21, 2024</span>
+                        </div>
+
+                        <p class="highlights__description">
+                            Determinar si "Red Dead Redemption 2" es el mejor videojuego de la historia 
+                            es subjetivo y puede variar según las opiniones individuales. Sin embargo, 
+                            es indiscutible que "Red Dead Redemption 2" ha sido ampliamente elogiado por 
+                            sus aspectos técnicos, narrativos y de jugabilidad. Aquí hay algunos puntos 
+                            clave a considerar en relación con los aspectos que mencionaste:
+                        </p>
+
+                        <footer class="highlights__footer-post">
+                            <div class="footer-post__container">
+                                <div class="footer-post__views">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>1720</span>
+                                </div>
+
+                                <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <a href="https://steamcommunity.com/profiles/76561198011184099/recommended/" class="comments__number">5</a>
+                                </div>
+                            </div>
+
+                            <div class="footer-post__read-more">
+                                <a href="https://www.vidaextra.com/accion/llegais-al-epilogo-red-dead-redemption-2-no-olvideis-pasar-este-punto-para-sentir-como-se-os-rompe-corazon" class="read-more__btn">Leer mas</a>
+                            </div>
+                        </footer>
+                            
+                    </div>
+
+                </article>
+
+                <article class="highlights__post">
+
+                    <div class="highlights__image">
+                        <a href="https://www.playstation.com/it-it/god-of-war/" class="highlights__image-link">
+                            <img src="./asset/img/highlight-1.jpg" class="highlights__img" alt="">
+                        </a>
+
+                        <div class="highlights__category">
+                            <a href="https://store.steampowered.com/tags/it/Mondo%20aperto/" class="highlights__name-category">Juegos</a>
+                        </div>
+                    </div>
+
+                    <div class="highlights__detail">
+                        <h3 class="highlights__title">
+                            <a href="https://www.playstation.com/it-it/god-of-war/" class="highlights__link">God of War - El verdadero nombre de Atreus </a>
+                        </h3>
+
+                        <div class="highlights__meta">
+                            <a href="https://www.playstation.com/it-it/god-of-war/" class="highlights__autor">Jesus M. </a>
+                            <span class="highlights__date">Octubre 27, 2024</span>
+                        </div>
+
+                        <p class="highlights__description">
+                            Además de presentarnos a un Kratos diferente , más maduro y sabio que el visto
+                            en los primeros juegos de la serie, la saga nórdica de God of War también giró 
+                            en torno a la figura de Atreus , uno de los personajes más importantes y decisivos de todo.
+                            El hijo del icónico Fantasma de Esparta juega un papel central en God of War de 2018 , cobrando 
+                            aún más relevancia en la secuela God...
+                        </p>
+
+                        <footer class="highlights__footer-post">
+                            <div class="footer-post__container">
+                                <div class="footer-post__views">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>1720</span>
+                                </div>
+
+                                <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <a href="https://steamcommunity.com/profiles/76561198034401919/recommended/" class="comments__number">5</a>
+                                </div>
+                            </div>
+
+                            <div class="footer-post__read-more">
+                                <a href="https://www.playstation.com/it-it/god-of-war/" class="read-more__btn">Leer mas</a>
+                            </div>
+                        </footer>
+                            
+                    </div>
+
+                </article>
+
+                <article class="highlights__post">
+
+                    <div class="highlights__image">
+                        <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="highlights__image-link">
+                            <img src="./asset/img/highlight-3.jpg" class="highlights__img" alt="">
+                        </a>
+
+                        <div class="highlights__category">
+                            <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="highlights__name-category">Juegos</a>
+                        </div>
+                    </div>
+
+                    <div class="highlights__detail">
+                        <h3 class="highlights__title">
+                            <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="highlights__link">Final - The Last of Us Todos los detalles </a>
+                        </h3>
+
+                        <div class="highlights__meta">
+                            <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="highlights__autor">Jesus M. </a>
+                            <span class="highlights__date">Diciembre 12, 2024</span>
+                        </div>
+
+                        <p class="highlights__description">
+                            Los jugadores usan armas como pistolas, 
+                            rifles y explosivos caseros, además de participar en combates
+                            cuerpo a cuerpo con agarres por el cuello, garrotes y tubos de 
+                            hierro para defenderse de los infectados y otros humanos supervivientes. 
+                            Los jugadores también pueden participar en secuencias de combate sigiloso en 
+                            primer plano. Los ataques con armas y explosivos provocan en...
+                        </p>
+
+                        <footer class="highlights__footer-post">
+                            <div class="footer-post__container">
+                                <div class="footer-post__views">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>1820</span>
+                                </div>
+
+                                <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="comments__number">10</a>
+                                </div>
+                            </div>
+
+                            <div class="footer-post__read-more">
+                                <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="read-more__btn">Leer mas</a>
+                            </div>
+                        </footer>
+                            
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!--Ultimos videos -->
+        <section class="layout__videos">
+            <header class="videos__subheader">
+                <h3 class="subheader__title">
+                    Ultimos videos
+                </h3>
+            </header>
+
+            <div class="videos__container">
+                <div class="videos__main-video">
+                    <div class="main-video__yt-video">
+                        <iframe src="https://www.youtube.com/embed/kj57qlP8vNk?si=aIMtlggwaw6j7mSB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="main-video__detail">
+                        <h3 class="main-video__title"> 
+                            Trailer | The Last Of Us Parte I Remake
+                        </h3>
+
+                        <div class="mai-video__info">
+                            <div class="main-video__info-container">
+                                <a href="https://www.playstation.com/it-it/games/the-last-of-us-part-i/" class="main-video__author">Sony Inc</a>
+
+                                <div class="main-video__views">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span class="main-video__number">4500</span>
+                                </div>
+                                <div class="main-video__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <a href="https://steamcommunity.com/id/BarbaJoe/recommended/" class="main-video__number">20</a>
+                                </div>
+                            </div>
+
+                            <span class="main-video__date">
+                                Agosto 20, 2024
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videos__list">
+
+                    <article class="videos__video">
+                        <div class="video__detail">
+
+                            <h4 class="video__title">
+                                <a href="https://store.steampowered.com/explore/new/" class="video__link">Top 10 mejores Juegos del 2024</a>
+                            </h4>
+    
+                            <div class="video__info">
+                                <a href="" class="video__author">Eurogamer</a>
+
+                                <span class="video__date">Enero 27, 2024</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="video__image">
+                            <a href="https://store.steampowered.com/specials/" class="video__image-link">
+                                <img src="./asset/img/latest-video-1.jpeg" class="video__img" alt="">
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <article class="videos__video">
+                        <div class="video__detail">
+
+                            <h4 class="video__title">
+                                <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="video__link">Trailer FC24</a>
+                            </h4>
+    
+                            <div class="video__info">
+                                <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="video__author">Vandal</a>
+
+                                <span class="video__date">Marzo 12, 2024</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="video__image">
+                            <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="video__image-link">
+                                <img src="./asset/img/latest-video-2.png" class="video__img" alt="">
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <article class="videos__video">
+                        <div class="video__detail">
+
+                            <h4 class="video__title">
+                                <a href="https://it.bandainamcoent.eu/elden-ring/elden-ring" class="video__link">Trailer de Elden Ring</a>
+                            </h4>
+    
+                            <div class="video__info">
+                                <a href="https://it.bandainamcoent.eu/elden-ring/elden-ring" class="video__author">3DJuegos</a>
+
+                                <span class="video__date">Diciembre 24, 2024</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="video__image">
+                            <a href="https://it.bandainamcoent.eu/elden-ring/elden-ring" class="video__image-link">
+                                <img src="./asset/img/latest-video-3.gif" class="video__img" alt="">
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <article class="videos__video">
+                        <div class="video__detail">
+
+                            <h4 class="video__title">
+                                <a href="https://www.hogwartslegacy.com/it-it" class="video__link">Trailer de Howarts Legacy</a>
+                            </h4>
+    
+                            <div class="video__info">
+                                <a href="https://www.hogwartslegacy.com/it-it" class="video__author">Sessesion</a>
+
+                                <span class="video__date">julio 26, 2024</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="video__image">
+                            <a href="https://www.hogwartslegacy.com/it-it" class="video__image-link">
+                                <img src="./asset/img/latest-video-4.webp" class="video__img" alt="">
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--Carrusel de Juegos-->
+        <section class="layout__carousel-games">
+            
+            <ul class="carousel-games__list">
+
+                <li class="carousel-games__item">
+
+                    <div class="carousel-games__image">
+                        <a href="https://store.steampowered.com/app/261640/Borderlands_The_PreSequel/" class="carousel-game__imagen-link">
+                            <img src="./asset/img/carrusel-games-1.jpg" class="carousel-game__img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-games__rating">
+                        <div class="rating__circle">
+                            <div class="circle__border">
+                                <span class="circle__mark">7</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-games__info">
+                        <a href="https://store.steampowered.com/app/261640/Borderlands_The_PreSequel/" class="carousel-games__category">JUEGOS</a>
+                        <div class="carousel-games__line"></div>
+                        <h2 class="carousel-games__title">
+                            <a href="https://store.steampowered.com/app/261640/Borderlands_The_PreSequel/" class="carousel-games__link">Borderlands: The Pre-Sequel</a>
+                        </h2>
+                    </div>
+
+                </li>
+
+                <li class="carousel-games__item carousel-games__item--hidden-small">
+
+                    <div class="carousel-games__image">
+                        <a href="https://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN//" class="carousel-game__imagen-link">
+                            <img src="./asset/img/carrusel-games-2.jpg" class="carousel-game__img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-games__rating">
+                        <div class="rating__circle">
+                            <div class="circle__border">
+                                <span class="circle__mark">8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-games__info">
+                        <a href="https://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN//" class="carousel-games__category">JUEGOS</a>
+
+                        <div class="carousel-games__line"></div>
+
+                        <h2 class="carousel-games__title">
+                            <a href="https://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/" class="carousel-games__link">Ace Combat Infinity Review</a>
+                        </h2>
+                    </div>
+
+                </li>
+
+                <li class="carousel-games__item carousel-games__item--hidden">
+
+                    <div class="carousel-games__image">
+                        <a href="https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/" class="carousel-game__imagen-link">
+                            <img src="./asset/img/carrusel-games-3.jpg" class="carousel-game__img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-games__rating">
+                        <div class="rating__circle">
+                            <div class="circle__border">
+                                <span class="circle__mark">9</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-games__info">
+                        <a href="https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/" class="carousel-games__category">JUEGOS</a>
+                        <div class="carousel-games__line"></div>
+                        <h2 class="carousel-games__title">
+                            <a href="https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/" class="carousel-games__link">The Walking Dead: Season Two Review</a>
+                        </h2>
+                    </div>
+
+                </li>
+
+                <li class="carousel-games__item carousel-games__item--hidden">
+
+                    <div class="carousel-games__image">
+                        <a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/" class="carousel-game__imagen-link">
+                            <img src="./asset/img/carrusel-games-4.jpg" class="carousel-game__img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-games__rating">
+                        <div class="rating__circle">
+                            <div class="circle__border">
+                                <span class="circle__mark">5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-games__info">
+                        <a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/" class="carousel-games__category">JUEGOS</a>
+                        <div class="carousel-games__line"></div>
+                        <h2 class="carousel-games__title">
+                            <a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/" class="carousel-games__link">Sherlock Holmes: Crimes & Punishments</a>
+                        </h2>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!--Contenido principal-->
+        <main class="layout__main">
+            <!--seccion de noticias-->
+            <section class="main__new">
+                <header class="news__subheader">
+                    <h3 class="news__title">Noticias</h3>
+                </header>
+
+                <div class="news__posts">
+                    <article class="news__main-post">
+                        <div class="main-post__image">
+                            <a href="https://www.rockstargames.com/it/videos/666666" class="main-post__link-image">
+                                <img src="./asset/img/gta 6.jpg" class="main-post__img" alt="">
+                            </a>
+                            <div class="main-post__container-category">
+                                <a href="https://store.steampowered.com/news/" class="main-post__category">Noticias</a>
+                            </div>
+                        </div>
+
+                        <div class="main-post__info">
+
+                            <h3 class="main-post__title">
+                                <a href="https://www.rockstargames.com/it/videos/666666" class="main-post__link-title">Nuevas Filtraciones GTA 6</a>
+                            </h3>
+
+                            <div class="mani-post__meta">
+                                <div class="main-post__author">
+                                    <a href="https://www.rockstargames.com/it/videos/666666" class="main-post__author">Jesus M.</a>
+                                </div>
+
+                                <span class="main-post__date">Febrero 4, 2024</span>
+                            </div>
+                            <p class="main-post__description"> 
+                                GTA 6 aún está lejos pero sigue siendo uno de los juegos más comentados y seguidos
+                                por los jugadores. Ahora, descubrimos que Rockstar Games ha creado una nueva Playlist 
+                                en su canal de YouTube que sólo incluye el ya conocido tráiler del anuncio. ¿Por qué es 
+                                relevante? Este movimiento podría indicar potencialmente que el desarrollador se está preparando 
+                                para lanzar nuevos videos sobre Grand Theft Auto 6.
+                            </p>
+                            <div class="main-post__footer-info">
+                                <div class="footer-info__container">
+                                   <div class="main-post__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span class="main-post__number-views">8200</span>
+                                   </div>
+                                   <div class="main-post__comment">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="main-post__number-comments">10</span>
+                                   </div>
+                                </div>
+
+                                <div class="main-post__read-more">
+                                    <a href="https://www.rockstargames.com/it/videos/666666" class="main-post__btn">Leer Mas</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+
+                    <div class="news__list">
+
+                        <article class="news__post">
+                            <div class="news__image">
+                                <a href="https://store.steampowered.com/explore/upcoming/" class="news__link-image">
+                                    <img src="./asset/img/lansamiento.jpg" class="news__img" alt="">
+                                </a>
+                            </div>
+                            <div class="news__detail">
+                                <h4 class="news__title-post">
+                                    <a href="https://store.steampowered.com/explore/upcoming/" class="news__link-title">Lanzamientos mas esperados para el 2024</a>
+                                </h4>
+
+                                <div class="news__date">
+                                    <a href="https://store.steampowered.com/explore/upcoming/" class="news__author">Jesus M.</a>
+                                    <span class="news__date">Marzo 25, 2024</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news__post">
+                            <div class="news__image">
+                                <a href="https://www.ea.com/es-mx/games/ea-sports-fc/fc-24/buy/pc#system-requirements" class="news__link-image">
+                                    <img src="./asset/img/fc24.jpg" class="news__img" alt="">
+                                </a>
+                            </div>
+                            <div class="news__detail">
+                                <h4 class="news__title-post">
+                                    <a href="https://www.ea.com/es-mx/games/ea-sports-fc/fc-24/buy/pc#system-requirements" class="news__link-title">Requisitis minimos FC24 PC</a>
+                                </h4>
+
+                                <div class="news__date">
+                                    <a href="https://www.ea.com/es-mx/games/ea-sports-fc/fc-24/buy/pc#system-requirements" class="news__author">Jesus M.</a>
+                                    <span class="news__date">Abril 10, 2024</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news__post">
+                            <div class="news__image">
+                                <a href="https://direct.playstation.com/it-it/buy-consoles/playstation5-console-model-group-slim" class="news__link-image">
+                                    <img src="./asset/img/ps5.jpg" class="news__img" alt="">
+                                </a>
+                            </div>
+                            <div class="news__detail">
+                                <h4 class="news__title-post">
+                                    <a href="https://direct.playstation.com/it-it/buy-consoles/playstation5-console-model-group-slim" class="news__link-title">Especificaciones PS5 Slim confirmandas</a>
+                                </h4>
+
+                                <div class="news__date">
+                                    <a href="https://direct.playstation.com/it-it/buy-consoles/playstation5-console-model-group-slim" class="news__author">Jesus M.</a>
+                                    <span class="news__date">Agosto 25, 2024</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news__post">
+                            <div class="news__image">
+                                <a href="https://www.playstation.com/it-it/games/marvels-spider-man-2/" class="news__link-image">
+                                    <img src="./asset/img/Spider.jpg" class="news__img" alt="">
+                                </a>
+                            </div>
+                            <div class="news__detail">
+                                <h4 class="news__title-post">
+                                    <a href="https://www.playstation.com/it-it/games/marvels-spider-man-2/" class="news__link-title">Spiderman 2 saldra exclusivamente en PS5</a>
+                                </h4>
+
+                                <div class="news__date">
+                                    <a href="https://www.playstation.com/it-it/games/marvels-spider-man-2/" class="news__author">Jesus M.</a>
+                                    <span class="news__date">Octubre 13, 2023</span>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!--seccion de juegos-->
+
+            <section class="main__games">
+                <header class="games__subheader">
+                    <h3 class="subheader__title">
+                        Juegos
+                    </h3>
+                </header>
+
+                <div class="games__container">
+
+                    <article class="games__game">
+                        <div class="game__container-image">
+                            <a href="https://vandal.elespanol.com/analisis/xsx/far-cry-6/87649#p-97" class="game__link-image">
+                                <img src="./asset/img/main-game-1.jpg" alt="" class="game__img">
+                            </a>
+
+                            <div class="game__container-rating">
+                                <div class="rating__circle">
+                                    <div class="rating__border">
+                                        <span class="rating__mark">7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game__container-category">
+                            <a href="https://vandal.elespanol.com/juegos/0/videojuegos" class="game__category">Juegos</a>
+                        </div>
+
+                        <div class="game__details">
+                            <h3 class="game__title">
+                                <a href="https://vandal.elespanol.com/analisis/xsx/far-cry-6/87649#p-97" class="game__link-title">Analicis de FarCry 6</a>
+                            </h3>
+                        </div>
+
+                    </article>
+
+                    <article class="games__game">
+                        <div class="game__container-image">
+                            <a href="https://vandal.elespanol.com/noticia/1350763885/reserva-ea-sports-fc-24-en-game-y-llevate-una-steelbook-exclusiva-y-un-dlc-con-extras/" class="game__link-image">
+                                <img src="./asset/img/slider-footer.jpg" alt="" class="game__img">
+                            </a>
+
+                            <div class="game__container-rating">
+                                <div class="rating__circle">
+                                    <div class="rating__border">
+                                        <span class="rating__mark">6</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game__container-category">
+                            <a href="https://vandal.elespanol.com/juegos/0/videojuegos" class="game__category">Juegos</a>
+                        </div>
+
+                        <div class="game__details">
+                            <h3 class="game__title">
+                                <a href="https://vandal.elespanol.com/noticia/1350763885/reserva-ea-sports-fc-24-en-game-y-llevate-una-steelbook-exclusiva-y-un-dlc-con-extras/" class="game__link-title">Analicis FC24</a>
+                            </h3>
+                        </div>
+
+                    </article>
+
+                    <article class="games__game">
+                        <div class="game__container-image">
+                            <a href="https://vandal.elespanol.com/noticia/1350765802/wwe-2k22-cerrara-servidores-en-enero-y-2k-aconseja-dar-el-salto-a-wwe-2k23/" class="game__link-image">
+                                <img src="./asset/img/slider-1.jpg" alt="" class="game__img">
+                            </a>
+
+                            <div class="game__container-rating">
+                                <div class="rating__circle">
+                                    <div class="rating__border">
+                                        <span class="rating__mark">8</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game__container-category">
+                            <a href="https://vandal.elespanol.com/juegos/0/videojuegos" class="game__category">Juegos</a>
+                        </div>
+
+                        <div class="game__details">
+                            <h3 class="game__title">
+                                <a href="https://vandal.elespanol.com/noticia/1350765802/wwe-2k22-cerrara-servidores-en-enero-y-2k-aconseja-dar-el-salto-a-wwe-2k23/" class="game__link-title">Analicis WWF23</a>
+                            </h3>
+                        </div>
+
+                    </article>
+
+                    <article class="games__game">
+                        <div class="game__container-image">
+                            <a href="https://vandal.elespanol.com/busqueda/call-of-duty" class="game__link-image">
+                                <img src="./asset/img/slider-4.jpg" alt="" class="game__img">
+                            </a>
+
+                            <div class="game__container-rating">
+                                <div class="rating__circle">
+                                    <div class="rating__border">
+                                        <span class="rating__mark">5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game__container-category">
+                            <a href="https://vandal.elespanol.com/juegos/0/videojuegos" class="game__category">Juegos</a>
+                        </div>
+
+                        <div class="game__details">
+                            <h3 class="game__title">
+                                <a href="https://vandal.elespanol.com/busqueda/call-of-duty" class="game__link-title">Analicis de CALL OF DUTY</a>
+                            </h3>
+                        </div>
+
+                    </article>
+
+
+
+                </div>
+            </section>
+
+            <!--Seccion Ultimos articulos-->
+            <section class="main__posts">
+                <header class="posts__subheader">
+                    <ul class="posts__list-header">
+                        <li class="list-header__item list-header--active">
+                            <h3 class="list-header__title">Ultimos Articulos</h3> 
+                        </li>
+
+                        <li class="list-header__item list-header--small">
+                            Juegos
+                        </li>
+                    </ul>
+                </header>
+
+                <div class="posts__container">
+
+                    <article class="posts__post">
+                        <div class="post__cpntainer-image">
+                            <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__link-image">
+                                <img src="./asset/img/taken.jpg" class="post__img" alt="">
+                            </a>
+
+                            <div class="post__container-category">
+                                <a href="https://store.steampowered.com/" class="post__category">
+                                    Juegos
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="post__details">
+                            <h3 class="post__title">
+                                <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__link">Analicis del nuevo TEKKEN 8</a>
+                            </h3>
+
+                            <div class="post__meta">
+                                <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__author">Jesus M.</a>
+
+                                <span class="post__date">Enero 21, 2024</span>
+                            </div>
+
+                            <p class="post__description">
+                                Apariencia del personaje completamente revisada. 
+                                Modelos elaborados y muy detallados rehechos desde cero y gráficos
+                                de alta fidelidad rompen los límites del hardware de próxima generación y añaden
+                                nuevo peso y atmósfera a las icónicas batallas de TEKKEN. 
+                                Entornos vívidos y niveles destructibles se combinan para crear una increíble
+                                sensación de inmersión y la mejor experiencia de juego.
+                            </p>
+
+                            <div class="post__footer-post">
+                                <div class="footer-post__container">
+
+                                   <div class="footer-post__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                    <span class="footer-post__number-views">
+                                        1540
+                                    </span>
+                                   </div>
+
+                                   <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                <span class="footer-post__number-comments">
+                                    40
+                                </span>
+                               </div>
+
+                                </div>
+                                <div class="post__read-more">
+                                    <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__btn-read-more"> Leer Mas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="posts__post">
+                        <div class="post__cpntainer-image">
+                            <a href="https://store.steampowered.com/app/1623730/Palworld/" class="post__link-image">
+                                <img src="./asset/img/panword.jpg" class="post__img" alt="">
+                            </a>
+
+                            <div class="post__container-category">
+                                <a href="https://store.steampowered.com/" class="post__category">
+                                    Juegos
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="post__details">
+                            <h3 class="post__title">
+                                <a href="https://store.steampowered.com/app/1623730/Palworld/" class="post__link">Analicis del nuevo Palworld</a>
+                            </h3>
+
+                            <div class="post__meta">
+                                <a href="https://store.steampowered.com/app/1623730/Palworld/" class="post__author">Jesus M.</a>
+
+                                <span class="post__date">Enero 19, 2024</span>
+                            </div>
+
+                            <p class="post__description">
+                                ¿Qué tipo de juego es?
+                                R. Puedes optar por vivir en paz junto a misteriosas criaturas conocidas como Pals o competir
+                                con cazadores furtivos.
+                                Los amigos pueden luchar, reproducirse, trabajar en el campo o en las fábricas.
+                                Incluso puedes venderlos o utilizarlos como alimento.
+                                Sobrevivir
+                                La falta de alimentos, un entorno hostil y las actividades ilícitas... 
+                            </p>
+
+                            <div class="post__footer-post">
+                                <div class="footer-post__container">
+
+                                   <div class="footer-post__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                    <span class="footer-post__number-views">
+                                        1540
+                                    </span>
+                                   </div>
+
+                                   <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                <span class="footer-post__number-comments">
+                                    40
+                                </span>
+                               </div>
+
+                                </div>
+                                <div class="post__read-more">
+                                    <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__btn-read-more"> Leer Mas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="posts__post">
+                        <div class="post__cpntainer-image">
+                            <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="post__link-image">
+                                <img src="./asset/img/cyber.jpg" class="post__img" alt="">
+                            </a>
+
+                            <div class="post__container-category">
+                                <a href="https://store.steampowered.com/" class="post__category">
+                                    Juegos
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="post__details">
+                            <h3 class="post__title">
+                                <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="post__link">Analicis del nuevo Cyberpunk 2077</a>
+                            </h3>
+
+                            <div class="post__meta">
+                                <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="post__author">Jesus M.</a>
+
+                                <span class="post__date">Enero 10, 2020</span>
+                            </div>
+
+                            <p class="post__description">
+                                Cyberpunk 2077 es un juego de rol de acción de mundo abierto ambientado en la megalópolis Night City, 
+                                en el que te conviertes en un mercenario cyberpunk atrapado en una lucha por la supervivencia. 
+                                Mejorado y con contenido ....
+                            </p>
+
+                            <div class="post__footer-post">
+                                <div class="footer-post__container">
+
+                                   <div class="footer-post__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                    <span class="footer-post__number-views">
+                                        1530
+                                    </span>
+                                   </div>
+
+                                   <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                <span class="footer-post__number-comments">
+                                    30
+                                </span>
+                               </div>
+
+                                </div>
+                                <div class="post__read-more">
+                                    <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__btn-read-more"> Leer Mas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="posts__post">
+                        <div class="post__cpntainer-image">
+                            <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__link-image">
+                                <img src="./asset/img/call.jpg" class="post__img" alt="">
+                            </a>
+
+                            <div class="post__container-category">
+                                <a href="https://store.steampowered.com/" class="post__category">
+                                    Juegos
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="post__details">
+                            <h3 class="post__title">
+                                <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__link">Analicis del nuevo Call of Duty®</a>
+                            </h3>
+
+                            <div class="post__meta">
+                                <a href="https://store.steampowered.com/app/1938090/Call_of_Duty/" class="post__author">Jesus M.</a>
+
+                                <span class="post__date">Octobre 28, 2022</span>
+                            </div>
+
+                            <p class="post__description">
+                                Así es como los desarrolladores describen este contenido:
+                                Este juego puede incluir contenido que no es adecuado para 
+                                todas las edades o para verlo en el lugar de trabajo: violencia o 
+                                sangre frecuente, contenido para adultos.
+                            </p>
+
+                            <div class="post__footer-post">
+                                <div class="footer-post__container">
+
+                                   <div class="footer-post__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                    <span class="footer-post__number-views">
+                                        1640
+                                    </span>
+                                   </div>
+
+                                   <div class="footer-post__comments">
+                                    <i class="fa-solid fa-comment"></i>
+                                <span class="footer-post__number-comments">
+                                  90
+                                </span>
+                               </div>
+
+                                </div>
+                                <div class="post__read-more">
+                                    <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" class="post__btn-read-more"> Leer Mas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                </div>
+
+                <div class="post__container-btn">
+                    <a href="https://steamcommunity.com/" class="post__read-more">Leer Mas</a>
+                </div>
+            </section>
+
+
+        </main>
+
+        <!--Barra lateral-->
+        <aside class="layout__aside">
+            <section class="aside__login">
+                <header class="login__subheader">
+                    <h3 class="subheader__title">Inicio Sesion</h3>
+                </header>
+                <div class="login__container">
+                    <form class="login__form">
+                        <div class="form__container-usename">
+                            <label for="username" class="form__label">Usuario</label>
+                            <input type="text" name="username" id="usename" class="form__input">
+                        </div>
+                        <div class="form__container-Password">
+                            <label for="Password" class="form__label">Contraseña</label>
+                            <input type="Password" name="Password" id="Password" class="form__input">
+                        </div>
+                        <div class="form__container-remember">
+                            <input type="checkbox" name="remember" id="remember" class="form__input">
+                            <label for="Password" class="form__label">Recuerdame</label>
+                        </div>
+
+                        <button  class="form__submit-btn">
+                            <a href=""  class="submit__btn">Iniciar Sesion</a>
+                        </button>
+
+                        
+                    </form>
+
+                    <a href="" class="login__regiter">Registrate</a>
+                    <a href="" class="login__lost-pass">Recuperar contraseña</a>
+                </div>
+            </section>
+
+            <section class="aside__social">
+
+                <ul class="social__list">
+
+                    <li class="social__item social__item--blue">
+                        <a href="https://twitter.com/steam" class="social__link">
+                            <div class="social__icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+
+                            <div class="sosial__followers">
+                                <h4 class="social__numbrer">26.000</h4>
+                                <span class="social__word">Seguidores</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="social__item social__item--dark-blue">
+                        <a href="https://www.facebook.com/Steam" class="social__link">
+                            <div class="social__icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+
+                            <div class="sosial__followers">
+                                <h4 class="social__numbrer">15.000</h4>
+                                <span class="social__word">Seguidores</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="social__item social__item--red">
+                        <a href="https://www.youtube.com/@TavaTava01" class="social__link">
+                            <div class="social__icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+
+                            <div class="sosial__followers">
+                                <h4 class="social__numbrer">330.000</h4>
+                                <span class="social__word">Seguidores</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="social__item social__item--pink">
+                        <a href="https://www.instagram.com/accounts/login/two_factor?next=%2F" class="social__link">
+                            <div class="social__icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+
+                            <div class="sosial__followers">
+                                <h4 class="social__numbrer">26.000</h4>
+                                <span class="social__word">Seguidores</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="social__item social__item--yellow">
+                        <a href="https://it.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" class="social__link">
+                            <div class="social__icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+
+                            <div class="sosial__followers">
+                                <h4 class="social__numbrer">16.200</h4>
+                                <span class="social__word">Seguidores</span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section class="aside__tweets">
+                <header class="tweets__header">
+                    <i class="fa-brands fa-twitter"></i>
+                    <h3 class="tweets__title">Ultimos tweets</h3>
+                </header>
+
+                <a href="https://twitter.com/tweet">
+                    <p class="tweets__content">#Las mejores live de video juegos en @TavaTava01</p>
+                </a>
+                
+
+            </section>
+
+
+            <section class="aside__recent">
+                <header class="recent__subheader">
+                    <ul class="recent__list-header">
+                        <li class="list-header__item list-header__item--active">
+                            <h3 class="list-header__title">
+                                <a href="https://store.steampowered.com/explore/new/" class="list-header__link-title">Reciente</a>
+                            </h3>
+                        </li>
+
+                        <li class="list-header__item">
+                            <h3 class="list-header__title list-header--small">
+                                <a href="https://store.steampowered.com/charts/topselling/IT" class="list-header__link-title">Popular</a>
+                            </h3>
+                        </li>
+
+                        <li class="list-header__item">
+                            <h3 class="list-header__title list-header--small">
+                                <a href="https://store.steampowered.com/explore/upcoming/" class="list-header__link-title">lansamientos</a>
+                            </h3>
+                        </li>
+                    </ul>
+                </header>
+
+                <div class="recent__container">
+                    <ul class="recent__list-posts">
+
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="" class="recent__link-img">
+                                    <img src="./asset/img/recent-1.jpg" class="recent__img" alt="">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="https://store.steampowered.com/app/2315690/WWE_2K24/" class="recent__link-title">Analicis WWF 2K24</a>
+                                </h4>
+
+                                <div class="recent__containe-info">
+                                    <a href="https://store.steampowered.com/app/2315690/WWE_2K24/" class="recent__author">Jesus M.</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">1210</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="recent__number-comments">10</span>
+                                        </article>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="" class="recent__link-img">
+                                    <img src="./asset/img/recent-2.jpg" class="recent__img" alt="">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="https://www.mundodeportivo.com/alfabeta/rockstar/gta-vi-puede-haber-filtrado-grandes-detalles-con-el-regreso-de-una-gran-mecanica-de-red-dead-redemption-ii" class="recent__link-title">Noticias de GTA VI</a>
+                                </h4>
+
+                                <div class="recent__containe-info">
+                                    <a href="https://www.mundodeportivo.com/alfabeta/rockstar/gta-vi-puede-haber-filtrado-grandes-detalles-con-el-regreso-de-una-gran-mecanica-de-red-dead-redemption-ii" class="recent__author">Jesus M.</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">2210</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="recent__number-comments">20</span>
+                                        </article>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="" class="recent__link-img">
+                                    <img src="./asset/img/recent-3.jpg" class="recent__img" alt="">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="https://it.ign.com/far-cry-6/206326/news/far-cry-6-non-ricevera-piu-aggiornamenti-ubisoft-e-concentrata-sul-prossimo-capitolo-della-serie" class="recent__link-title">Analicis FARCRY 6</a>
+                                </h4>
+
+                                <div class="recent__containe-info">
+                                    <a href="https://it.ign.com/far-cry-6/206326/news/far-cry-6-non-ricevera-piu-aggiornamenti-ubisoft-e-concentrata-sul-prossimo-capitolo-della-serie" class="recent__author">Jesus M.</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">1120</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="recent__number-comments">10</span>
+                                        </article>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="" class="recent__link-img">
+                                    <img src="./asset/img/recent-4.jpg" class="recent__img" alt="">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="https://vandal.elespanol.com/noticia/1350768873/the-last-of-us-parte-ii-iba-a-ser-mas-como-bloodborne-pero-ese-diseno-no-funcionaba-con-la-historia/" class="recent__link-title">Noticias The Last Us</a>
+                                </h4>
+
+                                <div class="recent__containe-info">
+                                    <a href="https://vandal.elespanol.com/noticia/1350768873/the-last-of-us-parte-ii-iba-a-ser-mas-como-bloodborne-pero-ese-diseno-no-funcionaba-con-la-historia/" class="recent__author">Jesus M.</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">1010</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="recent__number-comments">9</span>
+                                        </article>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="" class="recent__link-img">
+                                    <img src="./asset/img/recent-5.jpg" class="recent__img" alt="">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="https://vandal.elespanol.com/juegos/ps5/mortal-kombat-11-ultimate/91410#p-89" class="recent__link-title">Noticias Mortal Kombat 11</a>
+                                </h4>
+
+                                <div class="recent__containe-info">
+                                    <a href="https://vandal.elespanol.com/juegos/ps5/mortal-kombat-11-ultimate/91410#p-89" class="recent__author">Jesus M.</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">1003</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="recent__number-comments">11</span>
+                                        </article>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="aside__last-reviews">
+                <header class="last-reviews__subheader">
+                    <ul class="last-reviews__list-header">
+                        <li class="last-reviews__item last-reviews__item--active">
+                            <h3 class="last-reviews__title">
+                                <a href="https://vandal.elespanol.com/analisis/videojuegos" class="last-reviews__link-title">
+                                    Ultimas Analisis
+                                </a>
+                            </h3>
+                        </li>
+                        <li class="last-reviews__item">
+                            <h3 class="last-reviews__title last-reviews__link-title--small">
+                                <a href="https://vandal.elespanol.com/analisis/videojuegos" class="last-reviews__link-title last-reviews__link-title--small">
+                                    Mejores Analisis
+                                </a>
+                            </h3>
+                        </li>
+                    </ul>
+                </header>
+
+                <div class="last-reviews__container">
+                    <ul class="last-reviews__list-reviews">
+
+                        <li class="list-reviews__item">
+                            <div class="list-reviews__container-title">
+                                <h4 class="list-reviews__title">
+                                    <a href="https://vandal.elespanol.com/juegos/ps5/elden-ring/102076#p-89" class="list-reviews__title-link">Analisis de Elden Ring </a>
+                                </h4>
+                                <span class="list-reviews__mark">7.5</span>
+                            </div>
+                            <div class="list-reviews__progressbar">
+                                <div class="list-reviews__bar list-reviews__bar--bar1"></div>
+                            </div>
+                        </li>
+
+                        <li class="list-reviews__item">
+                            <div class="list-reviews__container-title">
+                                <h4 class="list-reviews__title">
+                                    <a href="https://vandal.elespanol.com/juegos/ps5/wwe-2k24/160054#p-13" class="list-reviews__title-link">Analisis de WWE 2K24 </a>
+                                </h4>
+                                <span class="list-reviews__mark">6.5</span>
+                            </div>
+                            <div class="list-reviews__progressbar">
+                                <div class="list-reviews__bar list-reviews__bar--bar2"></div>
+                            </div>
+                        </li>
+
+                        <li class="list-reviews__item">
+                            <div class="list-reviews__container-title">
+                                <h4 class="list-reviews__title">
+                                    <a href="https://vandal.elespanol.com/juegos/ps4/days-gone/38421#p-13" class="list-reviews__title-link">Analisis de Days Gone </a>
+                                </h4>
+                                <span class="list-reviews__mark">8.2</span>
+                            </div>
+                            <div class="list-reviews__progressbar">
+                                <div class="list-reviews__bar list-reviews__bar--bar3"></div>
+                            </div>
+                        </li>
+
+                        <li class="list-reviews__item">
+                            <div class="list-reviews__container-title">
+                                <h4 class="list-reviews__title">
+                                    <a href="https://vandal.elespanol.com/juegos/x360/need-for-speed-most-wanted/16137#p-53" class="list-reviews__title-link">Analisis de NFS Most Wanted</a>
+                                </h4>
+                                <span class="list-reviews__mark">5.5</span>
+                            </div>
+                            <div class="list-reviews__progressbar">
+                                <div class="list-reviews__bar list-reviews__bar--bar4"></div>
+                            </div>
+                        </li>
+
+                        <li class="list-reviews__item">
+                            <div class="list-reviews__container-title">
+                                <h4 class="list-reviews__title">
+                                    <a href="https://vandal.elespanol.com/juegos/ps5/tekken-8/126298#p-13" class="list-reviews__title-link">Analisis de TEKKEN 8</a>
+                                </h4>
+                                <span class="list-reviews__mark">9.5</span>
+                            </div>
+                            <div class="list-reviews__progressbar">
+                                <div class="list-reviews__bar list-reviews__bar--bar5"></div>
+                            </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </section>
+
+        </aside>
+
+    </div>
+
+    <!--pie de pagina-->
+    <footer class=" layout__footer">
+        <div class="footer__container">
+            <section class="footer__left-container">
+                <div class="footer__about">
+                    <h3 class="about__title">SOBRE NOSOTRO</h3>
+                    <p class="about__description">
+                        Aquí encontrarás todas las noticias y las últimas novedades en videojuegos. 
+                        En Vandal recopilamos cada día y minuto a minuto toda la actualidad del mundo de los 
+                        videojuegos y sus diferentes plataformas para que siempre estés al corriente de la última 
+                        actualización o contenido relacionado con tus títulos preferidos, de las fechas de 
+                        lanzamiento de los juegos más esperados, los anuncios más importantes, reportajes, 
+                        entrevistas, declaraciones, nuevas imágenes o tráileres y todas las curiosidades del 
+                        mundillo para mantenerte informado y a la vez entretenido
+                    </p>
+                </div>
+
+                <div class="footer__tags">
+                    <h3 class="tags__title">Etiquetas</h3>
+
+                    <div class="tags__container">
+                        <a href="https://store.steampowered.com/category/adventure/" class="tags__tag">Aventura</a>
+                        <a href="https://store.steampowered.com/category/fighting_martial_arts/" class="tags__tag">Lucha</a>
+                        <a href="https://store.steampowered.com/category/action_run_jump/" class="tags__tag">Plataformas</a>
+                        <a href="https://store.steampowered.com/category/strategy_turn_based/" class="tags__tag">RPG</a>
+                        <a href="https://store.steampowered.com/category/simulation/" class="tags__tag">Mundo Libre</a>
+                        <a href="https://store.steampowered.com/category/action_tps/" class="tags__tag">Shooter</a>
+                        <a href="https://store.steampowered.com/category/hack_and_slash/" class="tags__tag">Survival</a>
+                        <a href="https://store.steampowered.com/category/strategy_turn_based/" class="tags__tag">RPG</a>
+                        <a href="https://store.steampowered.com/category/adventure/?snr=1_5_9__12" class="tags__tag">Aventura</a>
+                        <a href="https://store.steampowered.com/category/action_run_jump/" class="tags__tag">Plataformas</a>
+                        <a href="https://store.steampowered.com/category/fighting_martial_arts/" class="tags__tag">Luchas</a>
+                        <a href="https://store.steampowered.com/category/simulation/" class="tags__tag">Mundo Libre</a>
+                        <a href="https://store.steampowered.com/category/action_tps/" class="tags__tag">Shooter</a>
+                        <a href="https://store.steampowered.com/category/strategy_turn_based/" class="tags__tag">RPG</a>
+                        <a href="https://store.steampowered.com/category/adventure/?snr=1_5_9__12" class="tags__tag">Aventura</a>
+                        <a href="https://store.steampowered.com/category/hack_and_slash/" class="tags__tag">Survival</a>
+                        <a href="https://store.steampowered.com/category/fighting_martial_arts/" class="tags__tag">lucha</a>
+                        <a href="https://store.steampowered.com/demos/" class="tags__tag">Demo</a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__center-container">
+                <h3 class="footer__title">
+                   Post Populares
+                </h3>
+
+                <ul class="footer__list-popular">
+
+                    <li class="list-popular__item">
+                        <div class="list-popular__container-img">
+                            <a href="" class="list-popular__link-img">
+                                <img src="./asset/img/popular-1.jpg" class="list-popular__img" alt="">
+                            </a>
+                        </div>
+
+                        <div class="list-popular__detail">
+                            <a href="https://store.steampowered.com/charts/topselling/IT">
+                                <h4 class="list-popular__title">Los mas Vendidos</h4>
+                            </a>
+                            
+                            <div class="list-popular__info">
+                                <a href="https://store.steampowered.com/charts/topselling/IT" class="list-popular__author">Jesus M.</a>
+
+                                <div class="list-popular__meta-info">
+                                    <div class="list-popular__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span class="list-popular__views">
+                                            <a href="https://store.steampowered.com/charts/topselling/IT">1920</a>
+                                        </span>
+                                    </div>
+                                    <div class="list-popular__comments">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="list-popular__comments">
+                                            <a href="https://store.steampowered.com/charts/topselling/IT">10</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-popular__item">
+                        <div class="list-popular__container-img">
+                            <a href="" class="list-popular__link-img">
+                                <img src="./asset/img/popular-2.jpg" class="list-popular__img" alt="">
+                            </a>
+                        </div>
+
+                        <div class="list-popular__detail">
+                            <a href="https://store.steampowered.com/charts/mostplayed/">
+                                <h4 class="list-popular__title">Los mas Jugados</h4>
+                            </a>
+                            
+                            <div class="list-popular__info">
+                                <a href="https://store.steampowered.com/charts/mostplayed/" class="list-popular__author">Jesus M.</a>
+
+                                <div class="list-popular__meta-info">
+                                    <div class="list-popular__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span class="list-popular__views">
+                                            <a href="https://store.steampowered.com/charts/mostplayed/">1286</a>
+                                        </span>
+                                    </div>
+                                    <div class="list-popular__comments">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="list-popular__comments">
+                                            <a href="https://store.steampowered.com/charts/mostplayed/">12</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-popular__item">
+                        <div class="list-popular__container-img">
+                            <a href="" class="list-popular__link-img">
+                                <img src="./asset/img/popular-3.jpg" class="list-popular__img" alt="">
+                            </a>
+                        </div>
+
+                        <div class="list-popular__detail">
+                            <a href="https://store.steampowered.com/specials/">
+                                <h4 class="list-popular__title">Ofertas Especiales</h4>
+                            </a>
+                            
+                            <div class="list-popular__info">
+                                <a href="https://store.steampowered.com/specials/" class="list-popular__author">Jesus M.</a>
+
+                                <div class="list-popular__meta-info">
+                                    <div class="list-popular__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span class="list-popular__views">
+                                            <a href="https://store.steampowered.com/specials/">1120</a>
+                                        </span>
+                                    </div>
+                                    <div class="list-popular__comments">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="list-popular__comments">
+                                            <a href="https://store.steampowered.com/specials/">8</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-popular__item">
+                        <div class="list-popular__container-img">
+                            <a href="" class="list-popular__link-img">
+                                <img src="./asset/img/popular-4.jpg" class="list-popular__img" alt="">
+                            </a>
+                        </div>
+
+                        <div class="list-popular__detail">
+                            <a href="https://store.steampowered.com/explore/new/">
+                                <h4 class="list-popular__title">Mas Recientes</h4>
+                            </a>
+                            
+                            <div class="list-popular__info">
+                                <a href="https://store.steampowered.com/explore/new/" class="list-popular__author">Jesus M.</a>
+
+                                <div class="list-popular__meta-info">
+                                    <div class="list-popular__views">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span class="list-popular__views">
+                                            <a href="https://store.steampowered.com/explore/new/">1920</a>
+                                        </span>
+                                    </div>
+                                    <div class="list-popular__comments">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="list-popular__comments">
+                                            <a href="https://store.steampowered.com/explore/new/">10</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+
+                </ul>
+            </section>
+            <section class="footer__rigth-container">
+                <h3 class="footer__title">Ultimo Post</h3>
+
+                <div class="footer__fslider">
+                    <img src="./asset/img/fifa24.jpg" class="fslider__img" alt="">
+                    <div class="fslider__info">
+                        <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/">
+                            <h4 class="fslider__category">Juegos</h4>
+                            <div class="fslider__sparator"></div>
+                            <h3 class="fslider__title">
+                                <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" class="fslider__link">Trailer FC24</a>
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <section class="footer__description">
+            <div class="footer__text">
+                &copy; copyright 2024. Todos los derechos reservados a Jesus M. Web
+            </div>
+        </section>
+
+    </footer>
+
+
+</body>
+</html>
